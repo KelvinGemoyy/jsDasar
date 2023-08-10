@@ -30,7 +30,14 @@ const template = `Name : ${nama}, Lulus : ${umur > 15}`;
 console.log(template);
 
 //* Multiline String
+let Multiline = `
+Nama saya adalah Kelvin
+dan saya bisa membantu anda
+dalam membuat website`
 
+document.writeIn(<pre>)
+document.writeIn(multiline);
+document.writeIn(</pre>)
 
 
 
