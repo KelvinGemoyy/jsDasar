@@ -24,6 +24,14 @@ const  santri = {
 
 console.log(santri.temanDekat);
 
+//* Expression Template Literal
+const template = `Name : ${nama}, Lulus : ${umur > 15}`;
+
+console.log(template);
+
+//* Multiline String
+
+
 
 
 
