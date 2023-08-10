@@ -39,15 +39,9 @@ obj = {
 console.log(`Hai nama saya ${obj.crush}, umur saya ${obj.umur} saya ${obj.kelas}, hobi saya adalah ${obj.hobi}.Saya adalah crushnya Kelvin`);
 console.warn(obj.crush);
 
-//* Console
 
-console.debug();
 
-console.info();
 
-console.warn();
-
-console.error();
 
 
 
