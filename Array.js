@@ -5,8 +5,10 @@ console.log(array.join('-'));
 
 
 
-var kelvin = array.includes('Hai nama saya Kelvin')
-console.log (kelvin)
+var kelvin = array.includes('Hai nama saya Kelvin');
+console.log (kelvin);``
+
+
 
 
 // Cara Kedua Membuat Array
@@ -25,10 +27,15 @@ console.log(arrayDua);
 
 
 // Contoh Kasus
-var umur = '16 tahun';
-var kelas = '1 SMA';
-var hobi = 'baca novel';
-var crushSaya = 'Thirza Nur Zanetta';
+obj = {
+     umur : '16 tahun',
+     kelas : '1 SMA',
+     hobi : 'baca novel',
+    crush : 'Thirza Nur Zanetta',
+}
 
-alert (`Hai nama saya ${pacarSaya} umur saya ${umur} saya ${kelas}, hobi saya adalah ${hobi}.Saya adalah crushnya Kelvin`);
+// alert (`Hai nama saya ${pacarSaya} umur saya ${umur} saya ${kelas}, hobi saya adalah ${hobi}.Saya adalah crushnya Kelvin`);
+// alert(`Hai nama saya ${pacarSaya} umur saya ${umur} saya ${kelas}, hobi saya adalah ${hobi}.Saya adalah crushnya Kelvin`);
+console.log(`Hai nama saya ${obj.crush}, umur saya ${obj.umur} saya ${obj.kelas}, hobi saya adalah ${obj.hobi}.Saya adalah crushnya Kelvin`);
+console.warn(obj.crush);
 
