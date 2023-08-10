@@ -1,4 +1,4 @@
-// Belajar Bareng Array
+//* Belajar Bareng Array
 
 var array = ['Hai nama saya Kelvin',7.00,'16 tahun',true,20];
 console.log(array.join('-'));
@@ -11,7 +11,7 @@ console.log (kelvin);``
 
 
 
-// Cara Kedua Membuat Array
+//* Cara Kedua Membuat Array
 
 arrayDua = []
 arrayDua[0] = 'Hai'
@@ -26,7 +26,7 @@ console.log(arrayDua);
 
 
 
-// Contoh Kasus
+//* Contoh Kasus
 obj = {
      umur : '16 tahun',
      kelas : '1 SMA',
@@ -38,4 +38,16 @@ obj = {
 // alert(`Hai nama saya ${pacarSaya} umur saya ${umur} saya ${kelas}, hobi saya adalah ${hobi}.Saya adalah crushnya Kelvin`);
 console.log(`Hai nama saya ${obj.crush}, umur saya ${obj.umur} saya ${obj.kelas}, hobi saya adalah ${obj.hobi}.Saya adalah crushnya Kelvin`);
 console.warn(obj.crush);
+
+//* Console
+
+console.debug();
+
+console.info();
+
+console.warn();
+
+console.error();
+
+
 
